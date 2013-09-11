@@ -1,0 +1,34 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="row" style="text-align:center;">
+    <div class="col-offset-1">
+        <div id="myCarousel" class="carousel">
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img src="~/Content/bridge.jpg" data-src="~/Content/bridge.jpg" alt="ThinkBridge">
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <h1 class="text-muted">Think Bridge.</h1>
+                            <p class="label label-success">Explore. Learn. Think. Create. Collaborate. Live.</p>
+                            <p class="lead text-muted">We help build careers in Software.</p>                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="alert alert-info">
+        <p>We have an idea. What if we trained the motivated, logic, & analytical oriented minds to be world class software people? What if one were exposed to live systems from day one? What if they were trained to communicate & collaborate from day one, instead of following orders? What if we incorporate a culture that treats each other well, aims for bigger better things, learns by doing, nurtures and grows talent and abilities, celebrates successes & embrace failures? What if we teach them to live? @Html.ActionLink("Read more >>", "About", "Home")</p>
+    </div>
+</div>
+
+<div class="row">
+    <div class="alert alert-success" style="text-align:center;">
+        <p>@Html.ActionLink("Now accepting inquiries for Jan 2014", "Contact", "Home")</p>
+    </div>
+</div>
